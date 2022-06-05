@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <div class="container ">Divisor de gastos</div>
+        <input id="nombre" type="text">
+        <input id="gasto" min="1" type="number">
+    </div>
+    <button id="boton"> Enviar gasto </button>
+    <div id="ListaDeDatos">
+
+
+<!-- En filas -->
+<tr class="table-primary"><p id="resultado"></p></tr>
+<tr class="table-secondary"><p id="contribucion"></p></tr>
+<tr class="table-success">...</tr>
+<tr class="table-danger">...</tr>
+<tr class="table-warning">...</tr>
+<tr class="table-info">...</tr>
+<tr class="table-light">...</tr>
+<tr class="table-dark">...</tr>
+
+<!-- En celdas (`td` or `th`) -->
+<tr>
+  <td class="table-primary"><p id="resultado"></p></td>
+  <td class="table-secondary"><p id="contribucion"></p></td>
+  <td class="table-success">...</td>
+  <td class="table-danger">...</td>
+  <td class="table-warning">...</td>
+  <td class="table-info">...</td>
+  <td class="table-light">...</td>
+  <td class="table-dark">...</td>
+</tr>
+    </div>
+    <p id="resultado"></p>
+    <p id="contribucion"></p>
+    <script src="index - copia.js"></script>
+</body>
+</html>
